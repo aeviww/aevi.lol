@@ -35,7 +35,7 @@ onBeforeUnmount(() => {
       class="mx-auto flex h-16 max-w-[760px] items-center justify-between px-7"
     >
       <NuxtLink to="/" class="text-[15px] font-semibold tracking-tight">
-        elytrya<span class="text-brand">.</span>
+        elytrya
       </NuxtLink>
       <div class="flex items-center gap-4">
         <NuxtLink
