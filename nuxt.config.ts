@@ -44,9 +44,9 @@ export default defineNuxtConfig({
   runtimeConfig: {
     githubToken: "",
     public: {
-      githubUser: "elytrya",
+      githubUser: "aeviww",
       siteUrl: "https://elytrya.icu",
-      repoUrl: "https://github.com/elytrya/elytrya.icu",
+      repoUrl: "https://github.com/aeviww/elytrya.icu",
       codetimeEndpoint: "https://codetime.dev/v3/users/shield?uid=25338",
       codetimeShield:
         "https://shields.jannchie.com/endpoint?style=flat&color=0284c7&url=https%3A%2F%2Fcodetime.dev%2Fv3%2Fusers%2Fshield%3Fuid%3D25338",
