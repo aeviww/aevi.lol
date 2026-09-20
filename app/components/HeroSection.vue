@@ -3,7 +3,7 @@ const config = useRuntimeConfig();
 const user = config.public.githubUser;
 const avatar = `https://github.com/${user}.png?size=240`;
 const gh = `https://github.com/${user}`;
-const site = (config.public.siteUrl as string) || "https://elytrya.icu";
+const site = (config.public.siteUrl as string) || "https://aevi.lol";
 const imgOk = ref(true);
 const { t } = useLocale();
 const { display, loaded } = useCodetime();
@@ -40,8 +40,8 @@ type Social = {
 };
 const socials: Social[] = [
   { label: "github", href: gh, icon: "lucide:github" },
-  { label: "discord", copy: "elytrya__", icon: "ic:baseline-discord" },
-  { label: "elytrya.icu", href: site, icon: "lucide:globe", self: true },
+  { label: "discord", copy: "aeviww", icon: "ic:baseline-discord" },
+  { label: "aevi.lol", href: site, icon: "lucide:globe", self: true },
 ];
 
 const copiedDiscord = ref(false);
@@ -113,8 +113,8 @@ async function shareSite() {
   if (coarse && typeof navigator !== "undefined" && navigator.share) {
     try {
       await navigator.share({
-        title: "elytrya",
-        text: "elytrya - bots, tools & mods",
+        title: "aevi",
+        text: "aevi - bots, tools & mods",
         url: site,
       });
     } catch {}
@@ -149,7 +149,7 @@ onBeforeUnmount(() => clearTimeout(hideTimer));
               'h-16 w-16 cursor-pointer select-none rounded-full object-cover shadow-[0_0_0_1px_hsl(var(--border)),0_12px_36px_-14px_hsl(var(--brand)/0.6)] transition-transform duration-150 will-change-transform',
               squishing ? 'animate-squish' : '',
             ]"
-            alt="elytrya"
+            alt="aevi"
             width="64"
             height="64"
             sizes="64px"
@@ -167,13 +167,13 @@ onBeforeUnmount(() => clearTimeout(hideTimer));
           />
         </div>
         <div class="min-w-0">
-          <div class="text-lg font-semibold leading-tight">elytrya</div>
+          <div class="text-lg font-semibold leading-tight">aevi</div>
           <a
             :href="gh"
             target="_blank"
             rel="noopener"
             class="font-mono text-xs text-muted-foreground transition-colors hover:text-brand"
-            >@elytrya {{ t("hero.loc") }}</a
+            >@aeviww {{ t("hero.loc") }}</a
           >
         </div>
         <span
