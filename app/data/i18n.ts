@@ -12,7 +12,7 @@ export const messages = {
     "work.label": "опенсурс проекты",
     "about.label": "обо мне",
     "about.body":
-      "я elytrya, разработчик из россии. люблю делать небольшие и понятные вещи - ботов (телеграм или дискорд), инструменты и моды/плагины, для майнкрафта и других игр.",
+      "я aeviww, разработчик из россии. люблю делать небольшие и понятные вещи - ботов (телеграм или дискорд), инструменты и моды/плагины, для майнкрафта и других игр.",
     "about.projects": "проектов",
     "about.langs": "языка",
     "about.since": "с года",
@@ -63,7 +63,7 @@ export const messages = {
     "work.label": "opensource projects",
     "about.label": "about",
     "about.body":
-      "i’m elytrya, a developer from russia. i like building small, focused things - bots with personality, tools that save time, and mods that make games more fun. creator of onevnl.",
+      "i’m aeviww, a developer from russia. i like building small, focused things - bots with personality, tools that save time, and mods that make games more fun. creator of onevnl.",
     "about.projects": "projects",
     "about.langs": "languages",
     "about.since": "since",
