@@ -1,4 +1,4 @@
-# elytrya.icu
+# aevi.lol
 
 личный сайт визитка на nuxt (е)
 
