@@ -167,7 +167,7 @@ onBeforeUnmount(() => clearTimeout(hideTimer));
           />
         </div>
         <div class="min-w-0">
-          <div class="text-lg font-semibold leading-tight">aevi</div>
+          <div class="text-lg font-semibold leading-tight">aeviww</div>
           <a
             :href="gh"
             target="_blank"
