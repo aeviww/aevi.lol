@@ -45,8 +45,8 @@ export default defineNuxtConfig({
     githubToken: "",
     public: {
       githubUser: "aeviww",
-      siteUrl: "https://elytrya.icu",
-      repoUrl: "https://github.com/aeviww/elytrya.icu",
+      siteUrl: "https://aevi.lol",
+      repoUrl: "https://github.com/aeviww/aevi.lol",
       codetimeEndpoint: "https://codetime.dev/v3/users/shield?uid=25338",
       codetimeShield:
         "https://shields.jannchie.com/endpoint?style=flat&color=0284c7&url=https%3A%2F%2Fcodetime.dev%2Fv3%2Fusers%2Fshield%3Fuid%3D25338",
@@ -57,7 +57,7 @@ export default defineNuxtConfig({
     pageTransition: { name: "page", mode: "out-in" },
     layoutTransition: { name: "page", mode: "out-in" },
     head: {
-      title: "elytrya - bots, tools & mods",
+      title: "aevi - bots, tools & mods",
       htmlAttrs: { lang: "en" },
       meta: [
         { charset: "utf-8" },
@@ -65,10 +65,10 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "elytrya - developer from russia building telegram bots, clis and minecraft mods. creator of onevnl.",
+            "aevi - developer from russia building telegram bots, clis and minecraft mods. creator of onevnl.",
         },
         { name: "theme-color", content: "#0f1315" },
-        { property: "og:title", content: "elytrya - bots, tools & mods" },
+        { property: "og:title", content: "aevi - bots, tools & mods" },
         {
           property: "og:description",
           content:
@@ -88,7 +88,7 @@ export default defineNuxtConfig({
         {
           rel: "alternate",
           type: "application/rss+xml",
-          title: "elytrya - devlog",
+          title: "aevi - devlog",
           href: "/rss.xml",
         },
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
