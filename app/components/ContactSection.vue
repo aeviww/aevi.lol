@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { t } = useLocale();
-const handle = "elytrya__";
+const handle = "aeviww";
 const copied = ref(false);
 
 async function copyHandle() {
