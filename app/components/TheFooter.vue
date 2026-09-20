@@ -10,7 +10,7 @@ const { open: cmdOpen } = useCommandPalette();
       class="mx-auto flex max-w-[760px] flex-col gap-3 px-7 py-9 font-mono text-[11px] tracking-[0.04em] text-muted-foreground/50 sm:flex-row sm:items-center sm:justify-between"
     >
       <span class="inline-flex flex-wrap items-center gap-x-3 gap-y-1">
-        <a class="underline decoration-dashed underline-offset-4" href="https://github.com/elytrya">elytrya</a>
+        <a class="underline decoration-dashed underline-offset-4" href="https://github.com/aeviww">aeviww</a>
         <span class="hidden h-3 w-px bg-border sm:inline-block" />
         <SiteViews />
       </span>
