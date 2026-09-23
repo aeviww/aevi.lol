@@ -1,6 +1,6 @@
 export default defineNuxtPlugin(() => {
   const route = useRoute();
-  const text = "elytrya.icu";
+  const text = "aevi.lol";
   const caret = "▌";
 
   let timer: ReturnType<typeof setTimeout> | undefined;
